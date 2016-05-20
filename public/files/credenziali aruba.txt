@@ -1,0 +1,15 @@
+Login: 1085068@aruba.it
+Password: a83fecb185
+
+database:
+host : 62.149.150.224
+username : Sql801819
+password : m71a51a278  (composta da dieci caratteri)
+nomedatabase : uno dei 5 già creati di default (Sql801819_1 , Sql801819_2 , Sql801819_3 , Sql801819_4 , Sql801819_5)
+
+
+Di seguito sono riportati i dati per accedere al pannello di controllo da dove potrà gestire i suoi database:
+
+http://mysql.aruba.it
+Nome Utente: Sql801819
+Password: m71a51a278

@@ -1,0 +1,86 @@
+<?php
+
+$velachi=$velaatt=$veladov=$velanon=$veladow=$velacon="";
+$velaatt="<br><img src=\"img/gabbiano.png\" alt=\"\">";
+
+?>
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <!-- Puntonave.net - Vela e Cultura marinaresca -->
+    <TITLE>Puntonave.net - Vela e Cultura marinaresca - Corso avanzato di navigazione a vela e motore</TITLE>
+     <META NAME="DESCRIPTION" CONTENT="Puntonave - Corso avanzato di navigazione a vela: conoscere gli impianti e il motore, la velatura; utilizzo della carta nautica e del portolano, realizzazione di una rotta; teoria interattiva e pratica">
+    <META NAME="KEYWORDS" CONTENT="scuola vela, corso vela roma, corsi vela principianti, corsi vela avanzati, crociere didattiche, noleggio yacht, noleggio barca a vela, imparare barca vela, navigazione, ormeggio, vacanze in barca vela, vacanze vela, vacanze isole grecia, patente nautica a vela, patente nautica carteggio, patente nautica roma, patente nautica dispense">
+
+    <meta name="author" content="GraphicLab">
+
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400,500' rel='stylesheet' type='text/css'>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easy-ticker.js"></script>
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="css/stile.css" rel="stylesheet" type="text/css">
+    <link href="css/li-scroller.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+     <div class="container">
+          
+          <?php include ('header.php'); ?>
+
+          <div class="cont">
+              <div class="col-xs-4"><img src="img/imgsin-navigazione.jpg" alt="Puntonave.net - Navigazione avanzata a vela e motore"></div>
+              <div class="col-xs-2 sottomenu">
+                   <table class="table table-hover table-condensed">
+                       <thead>
+                              <tr><th></th><th><h2>ELENCO ATTIVITA</h2></th></tr>
+                       </thead>
+                       <tbody>
+                              <tr><td></td><td><a href="iniziazione.php">Iniziazione alla vela</a></td></tr>
+                              <tr><td><img src="img/gabbiano.png" alt=""></td><td><a href="navigazione.php">Navigazione avanzata a vela e motore</a></td></tr>
+                              <tr><td></td><td><a href="weekend.php">Weekend didattici</a></td></tr>
+                              <tr><td></td><td><a href="crociere.php">Crociere didattiche</a></td></tr>
+                              <tr><td></td><td><a href="ormeggio.php">Ormeggio e ancoraggio</a></td></tr>
+                              <tr><td></td><td><a href="cultura.php">Cultura nautica e marinaresca</a></td></tr>
+                       </tbody>
+                   </table>
+              </div>
+              <div class="col-xs-6 testo">
+                   <h1>Corso avanzato di navigazione a vela e motore</h1><br><br>
+                   Corso avanzato per chi ha già le basi della navigazione a vela e vuole saperne di più. Durata: 4 giornate<br><br>
+                   <ul>
+                       <li>Teoria in barca con materiale didattico cartaceo e su PC</li>
+                       <li>Conoscere la barca: dotazioni, sicurezza, impianti</li>
+                       <li>Meteorologia: strumenti e fonti meteo</li>
+                       <li>Riduzione della velatura per meteo avverse</li>
+                       <li>Utilizzo della carta  nautica e del portolano</li>
+                       <li>Pianificazione di una rotta</li>
+                       <li>...e tanto altro che troverai nella brochure</li>
+                   </ul><br><br>
+                   <p class="text-right"><a href="pdf/perfezionamento.pdf" target="_blank"><button type="button" class="btn btn-link"><span class="glyphicon glyphicon-download" aria-hidden="true"></span>SCARICA BROCHURE</button></a></p>
+              </div>
+          </div> <!-- cont -->
+          
+          <?php include ('footer.php'); ?>
+
+     </div> <!-- container -->
+  </body>
+  <script>
+     $(function(){
+         $('#barranews').easyTicker({
+		visible: 1,
+		interval: 4000
+	});
+     });
+   </script>
+</html>

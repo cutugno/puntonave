@@ -1,0 +1,273 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* fine reset */
+
+/* generiche */
+html {
+   height:100%
+}
+
+body {
+   height: 100%;
+   font-family: 'Dosis', sans-serif;
+   font-size:18px;
+   color: #37437b;
+   text-align: center;
+   padding-top:1px;
+}
+       
+a {
+   color: #37437b;
+   font-weight: 700;
+}
+       
+a:hover {
+   text-decoration: none;
+   color: #000;
+}
+
+.container {
+  max-width: none !important;
+  width: 1250px;
+}
+
+em {
+   font-style: oblique;
+}
+
+h1 {
+   font-size: 20px;
+   font-weight: 700;
+}
+
+strong {
+   font-weight: 700;
+	font-weight: bold;
+}
+
+.big {
+	font-size: 35px;
+}
+
+span.homeglyph {
+	font-size: 16px;
+}
+
+.small {
+	font-size: 14px;
+	line-height: 13px;
+}
+
+/* header */
+
+div#barranews {
+   padding:5px;
+	margin-left: 20px;
+   margin-top:25px;
+   margin-bottom: 10px;
+}
+
+div.header {
+   padding-bottom: 8px;
+   border-bottom: 1px solid #37437b;
+}
+
+div.logo {
+   padding-bottom: 5px;
+}
+	/* newsticker */
+	
+	#barranews {
+	margin: 30px 0;
+	position: relative;
+	padding: 0 0 0 30px;
+	background: #edf0fa; 
+	}
+	
+
+	#barranews ul li {
+		list-style: none;
+		padding: 10px;
+		color: red;
+	}
+
+/* cont */
+
+div.cont {
+   padding-top: 30px;
+   border-bottom: 1px solid #37437b;
+   min-height: 760px;
+   text-align: left;
+}
+
+   /* homepage e chi siamo */
+   div.homepage {
+      background: url(../img/sfondo-cont-home.jpg) center no-repeat;
+      padding: 60px;
+		padding-top: 20px;
+		height: 780px;
+		text-align: center;
+   }
+	
+	div.citaz {
+		font-style: oblique;
+		color: #fff;
+		margin-top: 540px;
+		width:480px;
+		margin-left: 450px;
+	}
+	
+	div.citaz > p {
+		text-align: right;
+	}
+   
+   div.chisiamo {
+      text-align: center;
+		margin-top: 180px;
+   }
+
+   div.homepage > h1 {
+      color: #13419d;
+      font-weight: 500;
+      font-size: 30px;
+		font-style: oblique;
+      line-height: 34px;
+   }
+   
+   /* attivita e sottopagine */
+   
+   div.elenco {
+      padding-top: 100px;
+   }
+
+   div.elenco > ul.list-unstyled > li {
+      line-height: 55px;
+   }
+   
+   .sottomenu {
+      font-size:14px;
+      border-right: 1px solid #37437b;
+   }
+	
+	.testo {
+		text-align: justify;
+	}
+   
+   .testo h1 {
+      color: #ffc000;
+   }
+	
+	.testo span.glyphicon {
+		margin-right: 5px;
+	}
+	
+   /* nonsolovela */
+	
+   div.nonsolovela {
+      margin-top: 100px;
+      text-align: center;
+   }
+	
+   /* download e contatti */
+	
+   div.download, div.contatti {
+      min-height: 450px;
+   }
+   
+   ul#elencodl > li {
+      line-height: 30px;
+   }
+	
+	ul#elencodl span.glyphicon {
+		margin-right: 5px;
+	}
+
+   div.contatti {
+      text-align: center;
+      font-size: 22px;
+      line-height: 26px;
+      padding-top: 120px;
+   }
+	
+/* footer */
+
+div.footer {
+	padding-top: 3px;
+}
+
+img.fb-logo {
+	margin-top: 4px;
+	height: 35px;
+}
+
+div.info p {
+	line-height: 19px;
+}
+
+/* admin */
+
+.adminpanel {
+	margin-top: 15px;
+	text-align: left;
+}
+
+.adminpanel > .panel-heading {
+	background-color: #f5f5f5;
+}
+
+textarea { 
+   resize: none; 
+}
+
+td {
+	text-align: left;
+}
+	
+
+
+
+
+
+
